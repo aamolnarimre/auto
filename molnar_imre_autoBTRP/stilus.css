@@ -1,0 +1,87 @@
+*{
+    
+    
+
+  
+   
+   
+}
+header{
+    width: 100%;
+    
+    box-sizing: border-box;
+    
+}
+h1{
+    color: rgb(62, 130, 41);
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    max-width: 69%;
+    
+    
+}
+li{
+    padding-bottom: 9px;
+}
+p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.oszlop {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 0%;
+    box-sizing: border-box;
+}
+
+.szoveg-oszlop {
+    padding-left: 5px;
+    padding-top: 0px;
+    background-color: white#;
+}
+
+img{
+   
+       
+    
+    
+}
+
+    
+
+
+.kep-oszlop img {
+    
+    max-width: 90%;
+    height: auto;
+}
+.fejlécezis{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(62, 130, 41);
+    
+    gap: 0PX;
+}
+h4{
+    
+    color: gray;
+    padding-top: 1px;
+    padding-left: 50px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    text-align: left;
+   
+}
+@media only screen and (max-width: 600px) {.tartalom{width: 10%;}}
+
+
+
+
+
